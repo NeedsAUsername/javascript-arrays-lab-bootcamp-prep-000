@@ -23,3 +23,5 @@ function appendKitten(name) {
   var kittens2 = kittens.push(`${name}`)
   return kittens2
 }
+
+console.log(appendKitten("ok"))
